@@ -86,10 +86,12 @@ Send your incoming user prompts to a model router (= Python logic + SLM) to auto
 
 ### Tools & frameworks
 * [LLamaIndex Routers and LLMSingleSelector](https://docs.llamaindex.ai/en/latest/module_guides/querying/router/#using-selector-as-a-standalone-module) to select the best fitting model from a range of potential models
-* [Nemo guardrails](https://github.com/NVIDIA/NeMo-Guardrails) to detect and route based on intent 
+* [Nemo guardrails](https://github.com/NVIDIA/NeMo-Guardrails) to detect and route based on intent
+* [semantic-router](https://github.com/aurelio-labs/semantic-router) by AurelioLabs processing of multi-modal data; employ semantic vector space method to route requests using semantic meaning 
 ### Blog posts & courses
 * [Dynamically route logic based on input
 ](https://python.langchain.com/docs/expression_language/how_to/routing/) with LangChain, prompting and output parsing
+* [Semantic Router Course](https://www.aurelio.ai/course/semantic-router) employ semantic vector space method to route requests using semantic meaning
 ## 6) :blue_book: Caching 
 If your users tend to send semantically similar or repetitive prompts to your LLM system, you can reduce costs by using different caching techniques. The key lies in developing a caching strategy, that does not only look for exact matches, but rather semantic overlap to have a decent cache hit ratio.
 * :speaking_head: call-for-contributions :speaking_head: 
